@@ -46,8 +46,6 @@ containers里各自的组件
 
 * font
 
-由于antUI字体cdn不支持百度域名，因此将css移入`www`中并修改字体地址为`www/font/`，在index.html中单独引用，`.babelrc`中ant相关的配置里，style设置为false。
-
 * lib
 
 antd.min.css
